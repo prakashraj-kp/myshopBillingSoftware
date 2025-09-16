@@ -1,0 +1,5 @@
+
+.cart-summary-container {
+  height: auto !important;   /* allow container to grow */
+  box-sizing: border-box;
+}
