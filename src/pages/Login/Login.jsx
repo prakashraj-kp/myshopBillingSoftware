@@ -1,5 +1,5 @@
 import "./Login.css";
-import bgImage from "../../assets/login-bg.png";
+import bgImage from "../../assets/assets";
 import { data, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import toast from "react-hot-toast";
