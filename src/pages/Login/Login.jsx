@@ -1,5 +1,5 @@
 import "./Login.css";
-import bgImage from "../../assets/assets";
+import {assets} from "../../assets/assets";
 import { data, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import toast from "react-hot-toast";
@@ -47,7 +47,7 @@ import { AppContext } from "../../context/AppContext";
     return(
        <div className="bg-light d-flex align-items-center justify-content-center vh-100 login-background" 
          style={{
-        backgroundImage: `linear-gradient(rgba(225,225,225,0.5), rgba(225,225,225,0.5)), url(${bgImage})`,
+        backgroundImage: `linear-gradient(rgba(225,225,225,0.5), rgba(225,225,225,0.5)), url(${assets.Login})`,
         backgroundSize: "left center",
         backgroundPosition: "center",
         

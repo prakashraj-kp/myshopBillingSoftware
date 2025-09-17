@@ -5,7 +5,7 @@ import ReceipetPopup from '../ReceipetPopup/ReceipetPopup';
 import toast from 'react-hot-toast';
 import { AppConstants } from '../../Util/constants';
 import { createRazorpayOrder, verifyPayment } from "../../Service/PaymentService";
-import { createOrder, deleteOrder } from "../../Service/orderService";
+import { createOrder, deleteOrder } from "../../Service/OrderService"
 
 
 
